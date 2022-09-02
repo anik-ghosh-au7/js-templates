@@ -1,0 +1,113 @@
+h1 {
+  color: blue;
+}
+.orange {
+  background-color: orange;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.font-styles {
+  font-family: Verdana;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.box-model {
+  border: 1px solid red;
+  height: 50px;
+  width: 300px;
+  padding: 20px;
+  margin: 50px;
+}
+
+h3 {
+  color: red !important;
+}
+
+.sub-heading {
+  color: blue;
+}
+
+#title {
+  color: orange;
+}
+
+.inheritance {
+  color: orange;
+  font-family: 'Segoe UI';
+  font-size: 30px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td {
+  text-align: center;
+}
+
+.content-1 {
+  border: 1px solid red;
+  display: inline;
+}
+
+.content-2 {
+  border: 1px solid blue;
+  display: block;
+}
+
+.position-1 {
+  border: 1px solid red;
+  position: sticky;
+  top: 50px;
+  left: 50px;
+}
+
+.position-2 {
+  border: 1px solid blue;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.em-container {
+  font-size: 20px;
+  height: 2em;
+}
+
+.em {
+  font-size: 2em;
+}
+
+.rem {
+  font-size: 2rem;
+  border: 1px solid #333;
+  height: calc(50vh - 100px);
+}
